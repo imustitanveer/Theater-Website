@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="programs.xsl"?>
+<!DOCTYPE theater [
+    <!ELEMENT theater (program+, play+)>
+    <!ELEMENT program (title, date, time, description)>
+    <!ELEMENT play (title, writer, leadActor, date)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT time (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT writer (#PCDATA)>
+    <!ELEMENT leadActor (#PCDATA)>
+]>
+<theater>
+    <program>
+        <title>Romeo and Juliet</title>
+        <date>2024-07-10</date>
+        <time>19:00</time>
+        <description>A classic play by William Shakespeare.</description>
+    </program>
+    <program>
+        <title>Hamlet</title>
+        <date>2024-07-11</date>
+        <time>20:00</time>
+        <description>Another masterpiece by Shakespeare.</description>
+    </program>
+    <play>
+        <title>The Love Across Ages</title>
+        <writer>Leah Sutton</writer>
+        <leadActor>Brendan Williamson</leadActor>
+        <date>2024-06-27</date>
+    </play>
+    <play>
+        <title>Counting Stars</title>
+        <writer>Francisco Chang</writer>
+        <leadActor>Sebastian Remirez</leadActor>
+        <date>2024-07-04</date>
+    </play>
+    <play>
+        <title>Vampire From Spiceland</title>
+        <writer>Paulo Acosta</writer>
+        <leadActor>Rakesh Subhasha</leadActor>
+        <date>2024-07-11</date>
+    </play>
+    <play>
+        <title>The Monster Who Felt Lonely</title>
+        <writer>Francisco Chang</writer>
+        <leadActor>Yukihira Souma</leadActor>
+        <date>2024-07-18</date>
+    </play>
+    <play>
+        <title>From the Top of the Cross</title>
+        <writer>Christian DeVonne</writer>
+        <leadActor>Deontay Shield</leadActor>
+        <date>2024-07-25</date>
+    </play>
+</theater>

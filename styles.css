@@ -1,0 +1,130 @@
+@font-face {
+  font-family: customfont;
+  src: "/fonts/samsungsharpsans.otf";
+}
+
+@font-face {
+  font-family: customfont;
+  src: "/fonts/samsungsharpsans-bold.otf";
+  font-weight: bold;
+}
+
+body {
+    background-color: rgb(71, 32, 5);
+    padding: 20px;
+    font-family: customfont;
+  }
+  header{
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+  }
+  .href {
+    color: whitesmoke;
+    font-size: xx-large;
+    text-decoration: none;
+  }
+
+  .href:hover {
+    color: coral;
+    font-size: xx-large;
+    text-decoration: underline;
+  }
+
+
+  .xlstitle{
+    padding-right: 75px;
+  }
+  .logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+  }
+  .title {
+    color: chocolate;
+    text-align: center;
+    padding-right: 50px;
+    font-family: customfont;
+  }
+  .title2 {
+    color: chocolate;
+    text-align: center;
+    padding-right: 90px;
+    font-family: customfont;
+  }
+  .theaterimg {
+    border-radius: 15px;
+    width: 1000px;
+    height: 500px;
+  }
+  h2 {
+    color: salmon;
+    text-align: center;
+    font-family: customfont;
+  }
+  h3 {
+    color: salmon;
+    text-align: center;
+    font-family: customfont;
+  }
+  p {
+    color: whitesmoke;
+    text-wrap: balance;
+    font-family: customfont;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 30px;
+    border: 2px solid sienna;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 30px;
+    border: 2px solid sienna;
+  }
+
+
+
+  ul {
+    color: whitesmoke;
+    background-color: rgb(82, 38, 18);
+    text-align: center;
+    font-family: customfont;
+  }
+
+  table {
+    border: 1px solid;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: customfont;
+  }
+
+  .TableLabels {
+    background-color: darksalmon;
+    color: black;
+    font-family: customfont;
+  }
+
+  td:hover {
+    background-color: coral;
+    color: black;
+    font-family: customfont;
+  }
+
+  .footer {
+    text-align: center;
+    border-radius: 15px;
+    font-family: customfont;
+    background-color: blanchedalmond;
+    padding: 20px;
+    color: chocolate;
+  }
